@@ -1,0 +1,51 @@
+body,p,pre,form,input,h1,h2,h3,h4,h5,h6,ul,li,ol,dl,dd,dt{
+	margin:0;
+	padding:0;
+	list-style:none;
+	font-style: normal;
+    font-weight: normal;
+}
+ul,li,ol,dl,dd,dt{
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+a{
+	text-decoration: none;
+}
+img{
+	border:0;
+}
+*{
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent;
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+}
+
+/*文本超出一行 加类名*/
+.over{
+    overflow: hidden;
+    text-overflow:ellipsis;
+    white-space: nowrap;
+}
+/*文本超出多行 加类名*/
+.overmore{
+    text-overflow:ellipsis; 
+    overflow:hidden;
+    display:-webkit-box; 
+    -webkit-line-clamp:3; 
+    -webkit-box-orient: vertical;
+}
+
+
+/*meta 标签*/
+/*<meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=0">*/
+/*<meta http-equiv="X-UA-Compatible" content="IE=Edge"/>*/
+/*<meta name="renderer" content="webkit"/>*/
+
+/*<meta name="renderer" content="webkit"/>*/
+/*<meta http-equiv="X-UA-COMPATIBLE" content="IE-Edge">*/
+/*<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=0">*/
