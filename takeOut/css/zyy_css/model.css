@@ -24,7 +24,7 @@ body,html{
 
 .section-content{
 	flex: 1 0 auto;
-	background: blue;
+	background: #F2F2F2;
 	overflow: auto;
 	position: relative;
 }
@@ -37,7 +37,7 @@ body,html{
 	height: 100%;
 }
 .box{
-	height: 1000px;
+	height: auto;
 }
 
 .footer-box{
@@ -45,4 +45,35 @@ body,html{
 	height: .98rem;
 	background: yellow;
 	flex: 0 0 auto;
+}
+.bishengke{
+	width: 7.04rem;
+	height: 1.07rem;
+	/*background: yellow;*/
+	margin:0 auto;
+}
+.tou img{
+	width: 0.55rem;
+	height: 0.55rem;
+	margin: 0 auto;
+	border-radius: 50%;
+	float: left;
+	line-height: 0.54rem;
+	display: block;
+	margin-top: 0.27rem;
+}
+.day{
+	width: 0.56rem;
+	height: 0.27rem;
+	background: green;
+	float: right;
+	margin: 0 auto;
+}
+.tu img{
+	width: 7.04rem;
+	height: 3.11rem;
+	background: green;
+	margin: 0 auto;
+	margin-left: 0.24rem;
+	border-radius: 5px;
 }
