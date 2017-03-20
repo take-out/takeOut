@@ -1,6 +1,8 @@
 body{
     background:#F2F2F2;
 }
+/*中间部分*/
+
 .yyl_box{
     height:6.9rem;
     width:100%;
@@ -23,8 +25,10 @@ body{
     height:4.07rem;
     text-align: center;
     margin-top: 0.72rem;
-
 }
+/*中间部分*/
+
+/*指纹部分*/
 .cen_box h3{
     color:#666;
     margin-top: 0.41rem;
@@ -41,7 +45,9 @@ body{
 .cen_box h4{
     color:#E60033;
 }
-/*364  68*/
+/*指纹部分*/
+
+/*确认按钮部分*/
 .btn_box{
     width:3.64rem;
     height:0.68rem;
@@ -55,4 +61,6 @@ body{
     text-align: center;
     line-height: 0.68rem;
     color:#fff;
-}
+
+/*确认按钮部分*/
+
