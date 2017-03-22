@@ -61,6 +61,26 @@ body,html{
 	height: .49rem;
 	display: block;
 }
+.headerBox .rightBox{
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: .88rem;
+	height: .88rem;
+	display: flex;
+	display:-webkit-flex;
+	justify-content:center;
+	align-items:center;
+}
+.headerBox .rightBox a{
+	display: block;
+}
+.headerBox .rightBox a img{
+	width: .28rem;
+	height: .28rem;
+	display: block;
+}
+
 
 
 
@@ -86,12 +106,8 @@ body,html{
 .footer-box{
 	width: 100%;
 	height: .98rem;
-	/*background: yellow;*/
+	background: yellow;
 	flex: 0 0 auto;
-	text-align: center;
-	line-height: .98rem;
-	background: #E60033;
-	color: #FBE1E4;
 }
 .bishengke{
 	width: 7.04rem;
@@ -124,133 +140,124 @@ body,html{
 	margin-left: 0.24rem;
 	border-radius: 5px;
 }
-.peisong{
+.wancheng{
+	width: 7rem;
+	height: 1.06rem;
+	margin: 0 auto;
+	margin-top: .14rem;
+	background: #FFFFFF;
+	border-radius: .1rem;
+}
+.wancheng1{
 	width: 100%;
-	height: 1.66rem;
-	border: .01rem solid #EEEEEE;
+	height: .44rem;
+	padding-left: .2rem;
+	padding-right: .16rem;
 	/*background: red;*/
+	float: left;
+	margin-top: .1rem;
 }
-.qishi{
-	width: 4.1rem;
-	height: 1.2rem;
-	/*background: blue;*/
-	margin-top: .24rem;
-	margin-left: .24rem;
-}
-.qishi1{
+.left{
 	width: 100%;
-	height: .76rem;
-	/*background: yellow;*/
-}
-.touxiang{
-	width: .76rem;
-	height: .76rem;
+	height: 100%;
+	/*background: blue;*/
 	float: left;
 }
-.touxiang img{
-	width: .76rem;
-	height: .76rem;
+.img{
+	width: .32rem;
+	height: .32rem;
+	float: left;
+	/*margin-top: .04rem;*/
+}
+.img img{
+	width: .32rem;
+	height: .32rem;
 }
 .wenzi{
-	width: 3.06rem;
-	height: 100%;
-	float: right;
-	/*background: black;*/
-}
-.wenzi1{
-	width: 1.94rem;
-	height: .4rem;
-	float: left;
-	/*background: green;*/
-	font-size: .3rem;
-	line-height: .4rem;
-	color: #424242;
-}
-.kuang{
-	width: 1rem;
-	height: .24rem;
-	/*background: red;*/
-	float: right;
-	border: .01rem solid #E71647;
-	margin-top: .08rem;
-	font-size: .16rem;
-	line-height: .22rem;
-	color: #E95C71;
-	border-radius: .1rem 0 .1rem 0/.1rem 0 .1rem 0;
-}
-.wenzi2{
-	width: 100%;
-	height: .26rem;
-	float: left;
-	/*background: pink;*/
-	font-size: .16rem;
-	color: #3D3D3D;
-}
-.bottom{
-	width: 100%;
-	height: .42rem;
-	/*background: green;*/
-}
-.bottom1{
-	float: left;
-	font-size: .16rem;
-	color: #828282;
-	line-height: .44rem;
-}
-.wujiaoxing{
-	width: .3rem;
-	height: .26rem;
-	float: left;
-	margin-left: .2rem;
-}
-.wujiaoxing img{
-	width: .3rem;
-	height: .26rem;
-}
-.zan{
-	width: 100%;
-	height: .68rem;
-	border: .01rem solid #EEEEEE;
-}
-.zan1{
-	width: 6.92rem;
-	height: 100%;
-	margin: 0 auto;
-	/*background: red;*/
-}
-.zan2{
-	float: left;
 	font-size: .3rem;
 	color: #494949;
-	line-height: .68rem;
-}
-.zan3{
-	width: .72rem;
-	height: .36rem;
-	float: right;
-	border: .01rem solid #696969;
-	border-radius: .2rem;
-	margin-top: .18rem;
-	margin-left: .1rem;
-}
-.zantupian{
-	width: .32rem;
-	height: .32rem;
-	/*float: right;*/
-	margin-top: -0.02rem;
-	margin-left: .2rem;
-}
-.zantupian img{
-	width: .32rem;
-	height: .32rem;
-}
-.last{
-	width: 100%;
-	height: .5rem;
-	padding-left: .24rem;
-	font-size: .16rem;
-	line-height: .5rem;
-	color: #A7A7A7;
-	text-align: left;
 	float: left;
+}
+.right{
+	font-size: .24rem;
+	color: #494949;
+	float: right;
+}
+.wancheng2{
+	width: 100%;
+	height: .38rem;
+	padding-left: .2rem;
+	padding-right: .16rem;
+	/*background: green;*/
+	float: left;
+	/*margin-top: .1rem;*/
+}
+.left1{
+	font-size: .26rem;
+	color: #474747;
+	float: left;
+}
+.right1{
+	font-size: .26rem;
+	color: #E81144;
+	float: right;
+}
+.center{
+	width: 7rem;
+	height: 4.12rem;
+	background: #FFFFFF;
+	margin: 0 auto;
+	margin-top: .24rem;
+}
+.center1{
+	width: 100%;
+	height: 3.82rem;
+	float: left;
+	margin-top: .3rem;
+	background: red;
+}
+.center2{
+	width: .32rem;
+	height: 100%;
+	background: blue;
+	float: left;
+}
+.img1{
+	width: .32rem;
+	height: .32rem;
+	float: left;
+}
+.img1 img{
+	width: .32rem;
+	height: .32rem;
+}
+.mingxi{
+	font-size: .24rem;
+	float: left;
+	color: #6B6B6B；
+}
+.hanbaobao{
+	width: 6.68rem;
+	height: .6rem;
+	float: left;
+	background: green;
+	border-bottom: .01rem solid #F4F4F4;
+}
+.tupian{
+	width: .48rem;
+	height: .48rem;
+	float: left;
+	margin-top: .06rem;
+}
+.tupian img{
+	width: .48rem;
+	height: .48rem;
+}
+.hanbaobao1{
+	width: 3.46rem;
+	float: left;
+	line-height: .6rem;
+	font-size: .28rem;
+	color: #515151;
+	margin-left: .1rem;
 }

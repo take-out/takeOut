@@ -66,14 +66,13 @@
 	background: #E70032;
 	margin: 0 auto;
 	border-radius: 50px;
+	text-align:center;
 }
 .chongzhi span{
 	font-size: 0.31rem;
 	color: #fff;
 	line-height: 0.94rem;
 	font-weight: bold;
-	text-align:center;
-	margin-right: 3.20rem;
 }
 .tixian-top{
 	width: 100%;
@@ -81,6 +80,7 @@
 	/*background: red;*/
 }
 .tixian{
+	text-align:center;
 	width: 7.01rem;
 	height: 0.94rem;
 	background: #FFFFFF;
@@ -93,7 +93,6 @@
 	line-height: 0.94rem;
 	font-weight: bold;
 	text-align:center;
-	margin-right: 3.20rem;
 }
 
 
