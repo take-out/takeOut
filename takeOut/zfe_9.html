@@ -126,27 +126,6 @@
 			  			输入地址后珊瑚咧便没有挑战烦人肥嘟嘟烦人范围分为分为非分为非违法非法违法分为粉分为粉无纹
 			  		</p>
 			  	</li>
-			  	<li>
-			  		<p>
-			  			<span>Q2</span><span>:</span>
-			  			<span>
-			  			     为什么输入的地址没有跳转，无法进行选餐
-			  			 </span>
-			  		</p>
-			  		<p>
-			  			输入地址后珊瑚咧便没有挑战烦人肥嘟嘟烦人范围分为分为非分为非违法非法违法分为粉分为粉无纹
-			  		</p>
-			  	</li><li>
-			  		<p>
-			  			<span>Q3</span><span>:</span>
-			  			<span>
-			  			     为什么输入的地址没有跳转，无法进行选餐
-			  			 </span>
-			  		</p>
-			  		<p>
-			  			输入地址后珊瑚咧便没有挑战烦人肥嘟嘟烦人范围分为分为非分为非违法非法违法分为粉分为粉无纹
-			  		</p>
-			  	</li>	
 		    </ul>
 		<li>
 		  <a href="##">
@@ -155,17 +134,6 @@
 		  </a>	
 		</li>
 		<ul class="zfe-hh">
-			  	<li>
-			  		<p>
-			  			<span>Q1</span><span>:</span>
-			  			<span>
-			  			     为什么输入的地址没有跳转，无法进行选餐
-			  			 </span>
-			  		</p>
-			  		<p>
-			  			输入地址后珊瑚咧便没有挑战烦人肥嘟嘟烦人范围分为分为非分为非违法非法违法分为粉分为粉无纹
-			  		</p>
-			  	</li>
 			  	<li>
 			  		<p>
 			  			<span>Q2</span><span>:</span>
@@ -194,15 +162,18 @@
 <script>
 	var dj=document.querySelectorAll(".zfe-qq>li");
 	var nr=document.querySelectorAll(".zfe-hh");
+	var jt=document.querySelectorAll(".zfe-qq>li span");
 	console.dir(dj);
 	for (var i = 0; i < dj.length; i++) {
 		dj[i].index=i;
 		dj[i].onclick=function(){
             for (var i = 0; i < nr.length; i++) {
             	nr[i].style.height=0;
+            	
             }
             nr[this.index].style.height="7rem";
             nr[this.index].style.transition="all .3s";
+            
 		}
 	};
 </script>
