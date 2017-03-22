@@ -1,0 +1,84 @@
+﻿html,
+body {
+  height: 100%;
+}
+body {
+  width: 100%;
+  padding: 0 .24rem;
+  background: url(../../images/ly_images/img-bg.jpg) no-repeat center center / 100%;
+  font-size: 16px;
+}
+* {
+  box-sizing: border-box;
+}
+.head {
+  width: 100%;
+  height: .88rem;
+  line-height: .88rem;
+}
+.head img {
+  display: inline-block;
+  width: .3rem;
+  height: .36rem;
+}
+.navBox {
+  width: 100%;
+  height: 1.56rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.navBox .lists {
+  width: 3.43rem;
+  height: .16rem;
+  background: #fff;
+  border-radius: 30px;
+  position: relative;
+}
+.navBox .lists img {
+  position: absolute;
+  width: .8rem;
+}
+.navBox .lists img:nth-of-type(1) {
+  left: -0.25rem;
+  top: -0.22rem;
+}
+.navBox .lists img:nth-of-type(2) {
+  left: 50%;
+  transform: translate(-50%);
+  top: -0.22rem;
+}
+.navBox .lists img:nth-of-type(3) {
+  right: -0.25rem;
+  top: -0.22rem;
+}
+.main {
+  width: 7.02rem;
+  height: 70%;
+  border-radius: .2rem;
+  background: #fff;
+  padding: .7rem .56rem 0;
+  position: relative;
+}
+.main .images {
+  display: block;
+  margin: 0 auto;
+  height: 70%;
+}
+.main a {
+  display: block;
+  width: 5.9rem;
+  height: .9rem;
+  border-radius: .5rem;
+  box-shadow: 0 0.05rem 0.4rem #d7b8a3;
+  position: absolute;
+}
+.main .btn-bdxc {
+  bottom: .8rem;
+  background: url(../../images/ly_images/btn-bdxc.png) no-repeat center center / 100%;
+}
+.main .btn-xpxy {
+  bottom: 0;
+  transform: translate(0, 50%);
+  background: url(../../images/ly_images/btn-xpxy.png) no-repeat center center / 100%;
+}
