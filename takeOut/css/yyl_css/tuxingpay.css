@@ -12,10 +12,8 @@ body{
     height:2.46rem;
     width:100%;
     background: #E60033;
-    position:absolute;
 }
 .yyl_box .beij img{
-    position: relative;
     height:5rem;
     width:5rem;
     margin-top:1.9rem;
@@ -57,10 +55,11 @@ body{
     text-align: center;
 
 }
-.btn_box a{
+.btn_box a {
     text-align: center;
     line-height: 0.68rem;
-    color:#fff;
+    color: #fff;
+}
 
 /*确认按钮部分*/
 

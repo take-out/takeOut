@@ -1,0 +1,84 @@
+.block{
+	width: 100%;
+	height: 0.19rem;
+	/*background: yellow;*/
+}
+.one{
+	width: 100%;
+	height: 0.89rem;
+	background: #fff;
+}
+.one-middle{
+	width: 7.0rem;
+	height: 0.89rem;
+	/*background: red;*/
+	margin: 0 auto;
+}
+.tou{
+	font-size: 0.25rem;
+	color: #666666;
+	line-height: 0.89rem;
+	float: left;
+	font-weight: bold;
+
+}
+.one-middle a{
+	display: block;
+	width: 0.57rem;
+	height: 0.57rem;
+	float: right;
+	/*margin-left: 6.1rem;*/
+	z-index: 999;
+	margin-top: 0.16rem;
+}
+.tu{
+	display: block;
+	width: 0.57rem;
+	height: 0.57rem;
+	border-radius: 50px;
+	z-index: 1000;
+}
+/*.jiantou{
+	font-size: 0.25rem;
+	color: #666666;
+	line-height: 0.89rem;
+	float: right;
+	font-weight: bold;
+}
+*/
+.block1{
+	width: 100%;
+	height: 0.24rem;
+	/*background: red;*/
+}
+.white{
+	width: 100%;
+	height: 2.89rem;
+	background: #fff;
+}
+.xiugai{
+	width: 7.0rem;
+	height: 0.92rem;
+	/*background: red;*/
+	margin:0  auto;
+}
+.xiu{
+	font-size: 0.25rem;
+	color: #666666;
+	line-height: 0.89rem;
+	float: left; 
+	font-weight: bold;
+}
+.right{
+	font-size: 0.25rem;
+	color: #666666;
+	line-height: 0.89rem;
+	float: right; 
+	font-weight: bold;
+}
+.line{
+	width: 7.0rem;
+	height: 0.02rem;
+	background: #000;
+	margin: 0 auto;
+}

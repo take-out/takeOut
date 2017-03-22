@@ -11,40 +11,16 @@ body{
     height:2.46rem;
     width:100%;
     background: #E60033;
-    position:absolute;
 }
 .yyl_box .beij img{
-    position: relative;
     height:2.88rem;
     width:5.4rem;
     margin-top:1.46rem;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .btn{
     width:3.64rem;
     height:0.68rem;
     margin:0 auto;
-    /*margin-top: 1.2rem;*/
     background:#E60033;
     border-radius:50px;
 }
@@ -65,6 +41,5 @@ body{
 .jp img{
     width:100%;
     margin-top: 10px;
-    /*text-align: center;*/
     height:3.92rem;
 }
