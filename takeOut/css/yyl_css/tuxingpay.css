@@ -1,0 +1,66 @@
+body{
+    background:#F2F2F2;
+}
+/*中间部分*/
+
+.yyl_box{
+    height:6.9rem;
+    width:100%;
+    text-align: center;
+}
+.yyl_box .beij{
+    height:2.46rem;
+    width:100%;
+    background: #E60033;
+    position:absolute;
+}
+.yyl_box .beij img{
+    position: relative;
+    height:5rem;
+    width:5rem;
+    margin-top:1.9rem;
+}
+.cen_box{
+    width:100%;
+    height:4.07rem;
+    text-align: center;
+    margin-top: 0.72rem;
+}
+/*中间部分*/
+
+/*指纹部分*/
+.cen_box h3{
+    color:#666;
+    margin-top: 0.41rem;
+    font-size: 12px;
+}
+.cen_box p{
+    color:#666;
+    font-size: 8px;
+}
+.cen_box h1{
+    color:#E60033;
+    margin-top: 0.68rem;
+}
+.cen_box h4{
+    color:#E60033;
+}
+/*指纹部分*/
+
+/*确认按钮部分*/
+.btn_box{
+    width:3.64rem;
+    height:0.68rem;
+    background:#E60033;
+    border-radius: 20px;
+    margin: 0 auto;
+    text-align: center;
+
+}
+.btn_box a{
+    text-align: center;
+    line-height: 0.68rem;
+    color:#fff;
+
+/*确认按钮部分*/
+

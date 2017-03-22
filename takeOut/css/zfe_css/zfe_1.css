@@ -1,0 +1,34 @@
+.zfe-con{
+	width: 6.02rem;height: 1.95rem;
+	margin: 3.34rem auto 0;
+	background: url(../../images/zfe_img/1.png) center/100%;
+	padding-top: 0.01rem;
+}
+.zfe-con p:nth-child(1){
+	font-size: 16px;
+	color: #424242;
+	margin-left: 1.2rem;
+	margin-top: .2rem;
+}
+.zfe-con p:nth-child(2){
+	margin-left: 1.2rem;
+	margin-top: .08rem;
+	font-size: 8px;
+	color: #424242;
+}
+.zfe-con .zfe-ds{
+	margin-left: 1.15rem;
+	width: 2rem;height: .6rem;
+	border-radius: .5rem;
+	background: #FF880E;
+	border:.02rem solid #FF6000;
+	line-height: .6rem;
+	text-align: center;
+	margin-top: 0.22rem;
+}
+.zfe-con .zfe-ds a{
+	display: block;
+	width: 100%;height: 100%;
+	font-size: 14px;
+	color: #fff;
+}
