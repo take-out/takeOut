@@ -2,45 +2,46 @@
 	width: 100%;
 	height: 2.43rem;
 	background: #E60033;
-}
-.big-middle{
-	width: 5.0rem;
-	height: 2.43rem;
-	/*background: yellow;*/
-	margin: 0 auto;
+	padding: 0.18rem 0 0.24rem 0;
+	box-sizing:border-box;
 }
 .yue{
-	width: 1.21rem;
-	height: 2.43rem;
-	/*background: green;*/
+	width: 50%;
+	height: 100%;
+	/*background: yellow;*/
 	float: left;
+	border-right: 1px solid #B8032B;
+	box-sizing:border-box;
+	display: flex;
+	align-items:center;
+	flex-direction:column;
+	justify-content:center;
 }
 .zero{
-	width: 0.95rem;
-	font-size:0.25rem;
+	/*width: 0.95rem;*/
+	font-size:0.26rem;
 	color: #fff;
 	font-weight: bold;
-	margin-top: 0.83rem;
+	/*margin-top: 0.83rem;*/
+	text-align: center;
 }
 .yuee{
-	width: 1.19rem;
+	/*width: 1.19rem;*/
 	font-size: 0.25rem;
 	color: #fff;
-	margin-top: 1.56rem;
-
-}
-.line{
-	width: 0.02rem;
-	height: 2.02rem;
-	background: #B8032B;
-	margin-left: 2.0rem;
-	line-height: 2.43rem;
+	margin-top: 0.25rem;
+	text-align: center;
 }
 .jilu{
-	width: 1.21rem;
-	height: 2.43rem;
-	background: green;
+	width: 50%;
+	height: 100%;
+	/*background: green;*/
 	float: right;
+	box-sizing:border-box;
+	display: flex;
+	align-items:center;
+	flex-direction:column;
+	justify-content:center;
 }
 .block{
 	width: 100%;
@@ -113,3 +114,19 @@
 	margin-left: 0.6rem;
 	/*line-height: 0.27rem;*/
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

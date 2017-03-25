@@ -1,12 +1,12 @@
 .block{
 	width: 100%;
 	height: 0.34rem;
-	background: red;
+	/*background: red;*/
 }
 .lie1{
 	width: 6.82rem;
 	height: 0.92rem;
-	background: yellow;
+	/*background: yellow;*/
 	margin: 0 auto;
 }
 .tu{
@@ -15,15 +15,59 @@
 	float: left;
 	border-radius: 50px;
 }
-.block1{
-	width: 0.32rem;
-	height: 0.92rem;
-	background: red;
-	margin-left:0.92rem;
-}
 .span{
 	width: 5.6rem;
 	height: 0.92rem;
-	background: green;
-	margin-left: 1.18rem;
+	/*background: green;*/
+	float: right;
+}
+.top{
+	width: 5.6rem;
+	height: 0.47rem;
+	/*background: #fff;*/
+}
+.you{
+	line-height: 0.47rem;
+	font-size: 0.32rem;
+	color: #000;
+	float: left;
+}
+.price{
+	line-height: 0.47rem;
+	font-size: 0.32rem;
+	color: #000;
+	float: right;
+}
+.middle{
+	width: 5.6rem;
+	height: 0.14rem;
+	/*background: pink;*/
+}
+.bootom{
+	width: 5.6rem;
+	height: 0.25rem;
+	/*background: red;*/
+}
+.time{
+	line-height: 0.25rem;
+	font-size: 0.24rem;
+	color: #B8B8B8;
+	float: left;
+}
+.price2{
+	line-height: 0.25rem;
+	font-size: 0.24rem;
+	color: #B8B8B8;
+	float: right;
+}
+.block1{
+	width: 100%;
+	height: 0.25rem;
+	/*background: red;*/
+}
+.line{
+	width: 7.07rem;
+	height: 0.02rem;
+	background: #999999;
+	margin: 0 auto;
 }

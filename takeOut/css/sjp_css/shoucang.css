@@ -3,8 +3,8 @@
  	height: 1.07rem;
  	/*background: yellow;*/
  	margin:0 auto;
- }
- .tou img{
+}
+.tou img{
  	width: 0.55rem;
  	height: 0.55rem;
  	margin: 0 auto;
@@ -13,19 +13,38 @@
  	line-height: 0.54rem;
  	display: block;
  	margin-top: 0.27rem;
- }
- .day{
- 	width: 0.56rem;
- 	height: 0.27rem;
- 	background: green;
- 	float: right;
- 	margin: 0 auto;
- }
- .tu img{
+  }
+.bi{
+ 	font-size: 0.25rem;
+ 	color: #8D868A;
+ 	line-height: 1.2rem;
+ 	margin-left: 0.3rem;
+}
+.day{
+ 	font-size: 0.19rem;
+ 	color: #8D868A;
+ 	line-height: 1.2rem;
+ 	margin-left: 3.3rem;
+ 	/*background: red;*/
+}
+.tu img{
  	width: 7.04rem;
  	height: 3.11rem;
  	background: green;
  	margin: 0 auto;
  	margin-left: 0.24rem;
  	border-radius: 5px;
-  } 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+  
