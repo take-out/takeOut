@@ -580,6 +580,7 @@ i{
  }
  .assess-right img{
  	width: 0.14rem;
+ 	margin-top: 0.25rem;
  }
 
 
@@ -587,6 +588,29 @@ i{
  .footer-box{
 	width: 100%;
 	height: .98rem;
+	padding-top: 0.1rem;
 	background: #000000;
 	flex: 0 0 auto;
+	display: flex;
+	justify-content:space-around;
+	align-items:center;
+}
+.footer-box a{
+	display: flex;
+	flex-direction:column;
+	justify-content:space-around;
+	align-items:center;
+}
+.footer-box a>img{
+	width: 0.5rem;
+	height: 0.5rem;
+}
+.footer-box a span{
+	font-size: 12px;
+	color: #FFFFFF;
+}
+.footer-box a span.active{
+	font-size: 12px;
+	color: #EF2936;
+	opacity: 0.8;
 }
