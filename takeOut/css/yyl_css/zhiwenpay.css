@@ -62,4 +62,5 @@ body{
     text-align: center;
     line-height: 0.68rem;
     color:#fff;
+   -webkit-tap-highlight-color:rgba(0,0,0,0); 
 }
