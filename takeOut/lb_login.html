@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="renderer" content="webkit"/>
+    <meta http-equiv="X-UA-COMPATIBLE" content="IE-Edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=0">
+    <script src="js/rem.js"></script>
+    <title>login</title>
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/lb_css/lb_login.css">
+</head>
+<body>
+<!--登录失败-->
+<div class="lb-login-mask">
+    <div class="lb-login-fail">
+        <h3>登录失败</h3>
+        <p>您的账号因违规操作已被禁用</p>
+        <span><a href="">解除封印</a></span>
+    </div>
+</div>
+<!--登录失败结束-->
+<div class="lb-login-bg">
+    <!--返回-->
+    <span class="lb-login-back"><a href=""></a></span>
+    <!--返回结束-->
+    <!--游客-->
+    <span class="lb-login-youke">游客</span>
+    <!--游客结束-->
+    <!--中间输入框-->
+    <div class="lb-login-contain">
+        <form action="">
+            <!--手机号-->
+            <div class="lb-login-input1">
+                <span></span>
+                <input type="text" placeholder="输入手机号" maxlength="11">
+            </div>
+            <!--密码-->
+            <div class="lb-login-input2">
+                <span></span>
+                <input type="text" class="lb-login-int" placeholder="输入最多16位数字字母组合密码" maxlength="16">
+                <div class="lb-login-yan"></div>
+                <div class="lb-login-cha"></div>
+            </div>
+            <!--忘记密码-->
+            <div class="lb-login-mima">
+                <div class="lb-login-mima1">
+                    <a href="">
+                        <span></span>
+                        <p>忘记密码</p>
+                    </a>
+                </div>
+                <div class="lb-login-mima2">
+                        <p>自动登录</p>
+                        <span class="lb-login-anniudi">
+                            <div class="lb-login-mima2-yuan">
+                                <div class="lb-login-mima-yuan2"></div>
+                            </div>
+                        </span>
+                </div>
+            </div>
+            <!--登录注册-->
+            <!--<input type="submit" class="lb-login-btn1" value="">-->
+            <div class="lb-login-btn1"></div>
+            <span class="lb-login-btn2"><a href="./lb_register.html"></a></span>
+        </form>
+    </div>
+    <!--中间输入框结束-->
+    <!--头像-->
+    <div class="lb-login-man"></div>
+    <!--头像结束-->
+    <!--底部分享-->
+    <div class="lb-login-share">
+        <span class="lb-login-qq"><a href=""><img src="./images/lb_images/login-qq.png" alt=""></a></span>
+        <span class="lb-login-weixin"><a href=""><img src="./images/lb_images/login-wx.png" alt=""></a></span>
+        <span class="lb-login-weibo"><a href=""><img src="./images/lb_images/login-wb.png" alt=""></a></span>
+    </div>
+    <!--底部分享结束-->
+</div>
+</body>
+</html>
+<script src="js/zepto.js"></script>
+<script src="js/lb_js/lb_login.js"></script>

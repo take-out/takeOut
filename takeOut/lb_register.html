@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="renderer" content="webkit"/>
+    <meta http-equiv="X-UA-COMPATIBLE" content="IE-Edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=0">
+    <script src="js/rem.js"></script>
+    <title>register</title>
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/lb_css/lb_register.css">
+</head>
+<body>
+<div class="lb-register-bg">
+    <!--返回-->
+    <span class="lb-register-back"><a href="./lb_login.html"></a></span>
+    <!--返回结束-->
+    <!--游客-->
+    <span class="lb-register-youke">游客</span>
+    <!--游客结束-->
+    <!--中间输入框-->
+    <div class="lb-register-contain">
+        <div class="lb-register-usererror">
+            <span></span>
+            <p>请输入正确的手机号码</p>
+        </div>
+        <div class="lb-register-worderror">
+            <span></span>
+            <p>请输入6-16位数字字母密码</p>
+        </div>
+        <form action="">
+            <div class="lb-register-input1">
+                <span></span>
+                <input type="text" class="lb-register-int1" placeholder="输入手机号" maxlength="11">
+            </div>
+            <div class="lb-register-input2">
+                <span></span>
+                <input type="text" class="lb-register-int2" placeholder="输入最多16位数字字母组合密码" maxlength="16">
+                <div class="lb-register-yan"></div>
+                <div class="lb-register-cha"></div>
+            </div>
+            <div class="lb-register-mima">
+                <div class="lb-register-mima1">
+                    <a href="">
+                        <span></span>
+                        <p>忘记密码</p>
+                    </a>
+                </div>
+                <div class="lb-register-mima2">
+                    <p>自动登录</p>
+                        <span class="lb-register-anniudi">
+                            <div class="lb-register-mima2-yuan">
+                                <div class="lb-register-mima-yuan2"></div>
+                            </div>
+                        </span>
+                </div>
+            </div>
+            <!--登录注册-->
+            <input type="submit" class="lb-register-btn1" value="">
+            <span class="lb-register-btn2"><a href="./lb_register.html"></a></span>
+        </form>
+    </div>
+    <!--中间输入框结束-->
+    <!--头像-->
+    <div class="lb-register-man"></div>
+    <!--头像结束-->
+    <!--底部分享-->
+    <div class="lb-register-share">
+        <span class="lb-register-qq"><a href=""><img src="./images/lb_images/login-qq.png" alt=""></a></span>
+        <span class="lb-register-weixin"><a href=""><img src="./images/lb_images/login-wx.png" alt=""></a></span>
+        <span class="lb-register-weibo"><a href=""><img src="./images/lb_images/login-wb.png" alt=""></a></span>
+    </div>
+    <!--底部分享结束-->
+</div>
+</body>
+</html>
+<script src="js/zepto.js"></script>
+<script src="js/lb_js/lb_register.js"></script>

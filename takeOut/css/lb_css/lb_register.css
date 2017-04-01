@@ -1,0 +1,346 @@
+body,html{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.lb-register-bg{
+    width: 100%;
+    height: 100%;
+    background: url("../../images/lb_images/login-bj5.png")no-repeat center center/cover;
+    position: absolute;
+    left: 0;
+    top:0;
+}
+.lb-register-bg .lb-register-back{
+    display: block;
+    width: 0.34rem;
+    height: 0.34rem;
+    position: absolute;
+    left:0.24rem;
+    top:0.67rem;
+    background: url("../../images/lb_images/login-back.png")no-repeat center center/cover;
+}
+.lb-register-bg .lb-register-back a{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.lb-register-bg .lb-register-youke{
+    display: block;
+    width: 0.74rem;
+    height: 0.34rem;
+    line-height: 0.34rem;
+    color:#fff;
+    font-size:0.34rem;
+    position: absolute;
+    right:0.24rem;
+    top:0.67rem;
+}
+.lb-register-bg .lb-register-contain{
+    width: 6.54rem;
+    height: 5.16rem;
+    border-radius: 0.2rem;
+    background: url("../../images/lb_images/login-bj1.png") no-repeat center center/cover;
+    position: absolute;
+    left: 0.48rem;
+    top: 4.16rem;
+    z-index: 2;
+}
+.lb-register-hover .lb-register-contain{
+    width: 6.54rem;
+    height: 5.16rem;
+    border-radius: 0.2rem;
+    background: url("../../images/lb_images/login-bj6.png") no-repeat center center/cover;
+    position: absolute;
+    left: 0.48rem;
+    top: 3.14rem;
+    z-index: 2;
+}
+.lb-register-bg .lb-register-contain .lb-register-usererror{
+    position: absolute;
+    left: 0.42rem;
+    top:0.42rem;
+    display: none;
+}
+.lb-register-bg .lb-register-contain .lb-register-usererror-hover{
+    display: block!important;
+}
+.lb-register-bg .lb-register-contain .lb-register-usererror span{
+    display: block;
+    width: 1.82rem;
+    height: 0.38rem;
+    background:url("../../images/lb_images/login-gt.png") no-repeat center center/cover;
+}
+.lb-register-bg .lb-register-contain .lb-register-usererror p{
+    display: block;
+    font-size: 0.24rem;
+    color: #e60033;
+}
+.lb-register-bg .lb-register-contain .lb-register-worderror{
+    position: absolute;
+    left: 0.42rem;
+    top:0.42rem;
+    display: none;
+}
+.lb-register-bg .lb-register-contain .lb-register-worderror-hover{
+    display: block!important;
+}
+.lb-register-bg .lb-register-contain .lb-register-worderror span{
+    display: block;
+    width: 1.82rem;
+    height: 0.38rem;
+    background:url("../../images/lb_images/login-gt.png") no-repeat center center/cover;
+}
+.lb-register-bg .lb-register-contain .lb-register-worderror p{
+    display: block;
+    font-size: 0.24rem;
+    color: #e60033;
+}
+.lb-register-bg .lb-register-contain .lb-register-input1{
+    width: 100%;
+    height: 0.88rem;
+    position: absolute;
+    left: 0;
+    top:1.3rem;
+}
+.lb-register-bg .lb-register-contain .lb-register-input1>span{
+    display: block;
+    float: left;
+    margin-left: 0.38rem;
+    margin-top: 0.05rem;
+    width: 0.77rem;
+    height: 0.77rem;
+    border-radius: 50%;
+    box-shadow:0 0 8px #ffe7d9;
+    background: url("../../images/lb_images/login-lb.png") no-repeat center center/60%;
+}
+.lb-register-bg .lb-register-contain .lb-register-input1>input{
+    display: block;
+    float: left;
+    width: 4.9rem;
+    height: 0.88rem;
+    box-sizing: border-box;
+    border: 1px solid #ffe5d3;
+    border-radius: 0.4rem;
+    margin-left: 0.18rem;
+    font-size: 0.24rem;
+    padding-left: 0.3rem;
+    letter-spacing: 0.03rem;
+    background: #f3f3f3;
+    color: #999;
+    outline: none;
+}
+.lb-register-bg .lb-register-contain .lb-register-input2{
+    width: 100%;
+    height: 0.88rem;
+    position: absolute;
+    left: 0;
+    top:2.5rem;
+    z-index: 2;
+}
+.lb-register-bg .lb-register-contain .lb-register-input2 .lb-register-yan{
+    width: 0.27rem;
+    height: 0.17rem;
+    position: absolute;
+    right:1.07rem;
+    top:0.41rem;
+    background:url("../../images/lb_images/login-yj.png") no-repeat center center/cover ;
+    display: none;
+    z-index: 3;
+}
+.lb-register-bg .lb-register-contain .lb-register-input2 .lb-register-cha{
+    width: 0.11rem;
+    height: 0.11rem;
+    position: absolute;
+    right:0.69rem;
+    top:0.45rem;
+    background:url("../../images/lb_images/login-guan.png") no-repeat center center/cover ;
+    display: none;
+    z-index: 3;
+}
+.lb-register-bg .lb-register-contain .lb-register-input2>span{
+    display: block;
+    float: left;
+    margin-left: 0.38rem;
+    margin-top: 0.05rem;
+    width: 0.77rem;
+    height: 0.77rem;
+    border-radius: 50%;
+    box-shadow:0 0 8px #ffe7d9;
+    background: url("../../images/lb_images/login-pt.png") no-repeat center center/60%;
+}
+.lb-register-bg .lb-register-contain .lb-register-input2>input{
+    display: block;
+    float: left;
+    width: 4.9rem;
+    height: 0.88rem;
+    box-sizing: border-box;
+    border: 1px solid #ffe5d3;
+    border-radius: 0.4rem;
+    margin-left: 0.18rem;
+    font-size: 0.24rem;
+    padding-left: 0.3rem;
+    letter-spacing: 0.03rem;
+    background: #f3f3f3;
+    color: #999;
+    outline: none;
+}
+.lb-register-bg .lb-register-contain .lb-register-mima{
+    width: 100%;
+    height: 0.46rem;
+    position: absolute;
+    left: 0;
+    top:3.64rem;
+}
+.lb-register-bg .lb-register-contain .lb-register-mima a{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.lb-register-bg .lb-register-contain .lb-register-mima .lb-register-mima1{
+    width: auto;
+    margin-left:1.28rem;
+    float: left;
+}
+.lb-register-bg .lb-register-contain .lb-register-mima .lb-register-mima1 span{
+    display: block;
+    width: 0.29rem;
+    height: 0.29rem;
+    float: left;
+    margin: 0.08rem;
+    background:url("../../images/lb_images/login-wj.png") no-repeat center center/cover;
+}
+.lb-register-bg .lb-register-contain .lb-register-mima .lb-register-mima1 p{
+    display: block;
+    float: left;
+    font-size: 0.24rem;
+    height: 0.46rem;
+    line-height: 0.46rem;
+    color:#000;
+}
+.lb-register-bg .lb-register-contain .lb-register-mima .lb-register-mima2{
+    width: auto;
+    margin-left:1.34rem;
+    float: left;
+}
+.lb-register-bg .lb-register-contain .lb-register-mima .lb-register-mima2 span{
+    display: block;
+    width: 0.92rem;
+    height: 0.46rem;
+    float: left;
+    margin: 0 0.08rem;
+    border-radius: 0.4rem;
+    background:#e60033;
+    position: relative;
+}
+.lb-register-bg .lb-register-contain .lb-register-mima .lb-register-mima2 span .lb-register-mima2-yuan{
+    width:0.4rem;
+    height: 0.4rem;
+    position: absolute;
+    right:0.02rem;
+    top:0.03rem;
+    background: #fff;
+    border-radius: 50%;
+}
+.lb-register-bg .lb-register-contain .lb-register-mima .lb-register-mima2 span .lb-register-mima2-yuan .lb-register-mima-yuan2{
+    width:0.06rem;
+    height: 0.06rem;
+    position: absolute;
+    left:50%;
+    top:50%;
+    margin-left: -0.03rem;
+    margin-top: -0.03rem;
+    background: #ff7314;
+    border-radius: 50%;
+}
+.lb-register-bg .lb-register-contain .lb-register-mima .lb-register-mima2 p{
+    display: block;
+    float: left;
+    font-size: 0.24rem;
+    height: 0.46rem;
+    line-height: 0.46rem;
+    color:#000;
+}
+.lb-register-bg .lb-register-contain .lb-register-btn1{
+    display: block;
+    width: 5.86rem;
+    height: 0.9rem;
+    position: absolute;
+    left: 0.36rem;
+    top:4.68rem;
+    border: 0;
+    border-radius: 0.4rem;
+    background: url("../../images/lb_images/login-btn3.png") no-repeat center center/cover;
+    outline: none;
+}
+.lb-register-bg .lb-register-contain .lb-register-btn2{
+    display: block;
+    width: 5.86rem;
+    height: 0.9rem;
+    position: absolute;
+    left: 0.36rem;
+    top:6rem;
+    border: 0;
+    background: url("../../images/lb_images/login-btn2.png") no-repeat center center/cover;
+    outline: none;
+}
+.lb-register-bg .lb-register-contain .lb-register-btn2 a{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.lb-register-bg .lb-register-man{
+    width: 3.25rem;
+    height: 3.25rem;
+    background:url("../../images/lb_images/login-man.png") no-repeat center center/cover ;
+    position: absolute;
+    left: 2.12rem;
+    top:2.08rem;
+    z-index: 1;
+}
+.lb-register-hover .lb-register-man{
+    width: 2.56rem;
+    height: 2.56rem;
+    background:url("../../images/lb_images/login-man.png") no-repeat center center/cover ;
+    position: absolute;
+    left: 4.4rem;
+    top:1.53rem;
+    z-index: 1;
+}
+.lb-register-bg .lb-register-share{
+    width: 100%;
+    height: 0.5rem;
+    position: absolute;
+    left: 0;
+    bottom: 1.1rem;
+}
+.lb-register-bg .lb-register-share>span{
+    display: block;
+    float: left;
+    width: 0.5rem;
+    height: 0.5rem;
+    border-radius: 50%;
+    background: #fff;
+}
+.lb-register-bg .lb-register-share>span a{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.lb-register-bg .lb-register-share>span img{
+    display: block;
+    width: 60%;
+    height: 60%;
+    margin:20% auto;
+}
+.lb-register-bg .lb-register-share .lb-register-qq{
+    margin-left: 2.2rem;
+}
+
+.lb-register-bg .lb-register-share .lb-register-weixin{
+    margin-left: 0.8rem;
+}
+
+.lb-register-bg .lb-register-share .lb-register-weibo{
+    margin-left: 0.8rem;
+}

@@ -1,0 +1,604 @@
+.header-box {
+  background: #e60033;
+  padding: 0 0.24rem; }
+  .header-box .return {
+    width: 0.49rem;
+    height: 0.49rem;
+    margin-top: 0.2rem;
+    float: left; }
+    .header-box .return img {
+      width: 0.49rem; }
+  .header-box .search {
+    width: 5rem;
+    height: 0.6rem;
+    border-radius: 0.3rem;
+    background: #ffffff;
+    float: left;
+    margin-top: 0.15rem;
+    margin-left: 0.46rem; }
+    .header-box .search span {
+      display: block;
+      margin-top: 6px;
+      float: left;
+      margin-left: 0.28rem;
+      margin-right: 0.1rem; }
+      .header-box .search span img {
+        width: 0.35rem;
+        height: 0.37rem; }
+    .header-box .search input {
+      outline: none;
+      display: block;
+      float: left;
+      /*background: blue;*/
+      color: #cccccc;
+      border: 0;
+      width: 3.2rem;
+      height: .6rem;}
+.lb-buy-header{
+    width: 100%;
+    height: 2.12rem;
+    background: #e60033;
+    padding-top: 0.24rem;
+    padding-right: 0.25rem;
+    padding-left: 0.22rem;
+}
+.lb-buy-header .lb-buy-top{
+    width: 100%;
+    height: 1.1rem;
+}
+.lb-buy-header .lb-buy-top .lb-buy-topleft{
+    width: 1.1rem;
+    height: 1.1rem;
+    border-radius: 0.2rem;
+    float: left;
+    background:url("../../images/lb_images/hanbao1.png") no-repeat center center/cover ;
+}
+.lb-buy-header .lb-buy-top .lb-buy-topright{
+    width: auto;
+    height: 100%;
+    float: left;
+    margin-left: 0.16rem;
+}
+.lb-buy-header .lb-buy-top .lb-buy-topright .lb-buy-top-name{
+    width: auto;
+    height: 0.4rem;
+    line-height: 0.4rem;
+    color:#fff;
+    font-size: 0.34rem;
+}
+.lb-buy-header .lb-buy-top .lb-buy-topright .lb-buy-top-name p{
+    display: block;
+    float: left;
+}
+.lb-buy-header .lb-buy-top .lb-buy-topright .lb-buy-top-name span{
+    display:block;
+    float: left;
+    width: 1.2rem;
+    border: 1px solid #fff;
+    border-radius: 0.1rem;
+    height: 0.4rem;
+    line-height: 0.4rem;
+    font-size: 0.12rem;
+    text-align: center;
+}
+.lb-buy-header .lb-buy-top .lb-buy-topright .lb-buy-top-price{
+    height: 0.2rem;
+    margin-top: 0.06rem;
+    color:#fff;
+    font-size: 0.22rem;
+}
+.lb-buy-header .lb-buy-top .lb-buy-topright .lb-buy-top-jian{
+    height: 0.29rem;
+    font-size: 0.22rem;
+    line-height:0.29rem;
+    text-align: center;
+    margin-top: 0.16rem;
+}
+.lb-buy-header .lb-buy-top .lb-buy-topright .lb-buy-top-jian span{
+    display: block;
+    width: 0.29rem;
+    height: 0.29rem;
+    float: left;
+    background: #fff;
+    color:#e60033;
+}
+.lb-buy-header .lb-buy-top .lb-buy-topright .lb-buy-top-jian p{
+    display: block;
+    margin-left: 0.06rem;
+    float: left;
+    height: 0.29rem;
+    color:#fff;
+}
+.lb-buy-header .lb-buy-laba{
+    width: 100%;
+    height: 0.32rem;
+    margin-top: 0.34rem;
+}
+.lb-buy-header .lb-buy-laba span{
+    display: block;
+    width: 0.32rem;
+    height: 0.32rem;
+    float: left;
+    background: url("../../images/lb_images/laba.png") no-repeat center center/cover ;
+}
+.lb-buy-header .lb-buy-laba p{
+    display: block;
+    height: 0.32rem;
+    line-height: 0.32rem;
+    color:#fff;
+    font-size: 0.22rem;
+}
+
+
+.lb-buy-bottom{
+    width: 100%;
+    height: 10.2rem;
+    overflow: auto;
+    background: #eee;
+}
+.lb-buy-bottom .lb-buy-nav{
+     width: 7.27rem;
+    height: 0.58rem;
+    margin-left: 0.22rem;
+    border-bottom: 1px solid #e7e7e7;
+}
+.lb-buy-bottom .lb-buy-nav span{
+    display: block;
+    float: left;
+    width: 33.3333%;
+    height: 100%;
+}
+.lb-buy-bottom .lb-buy-nav span:nth-child(1){
+    border-bottom: 0.03rem solid #ff2751;
+}
+.lb-buy-bottom .lb-buy-nav span a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    line-height: 0.58rem;
+    color:#000;
+    font-size: 0.3rem;
+}
+.lb-buy-bottom .lb-buy-list{
+    width: 100%;
+    height:9.62rem;
+}
+.lb-buy-bottom .lb-buy-list .lb-buy-list-left{
+    width: 1.49rem;
+    height: 100%;
+    float: left;
+    background: #e5e5e5;
+}
+.lb-buy-bottom .lb-buy-list .lb-buy-list-left .lb-buy-list-left-a{
+    display: block;
+    width: 100%;
+    height: 1.48rem;
+    line-height: 1.48rem;
+    text-align: center;
+    color:#000;
+    font-size: 0.24rem;
+}
+.lb-buy-bottom .lb-buy-list .lb-buy-list-left .lb-buy-list-hover{
+    background: #f2f2f2;
+}
+.lb-buy-bottom .lb-buy-list-right{
+    width: 6rem;
+    height: 9.62rem;
+    float: left;
+    overflow:auto;
+}
+.lb-buy-bottom .lb-buy-list-right .lb-buy-list-ul{
+    width: 100%;
+    height: 9.18rem;
+}
+.lb-buy-bottom .lb-buy-list-right .lb-buy-list-ul>span{
+    display: block;
+    margin-left: 0.23rem;
+    height: 0.58rem;
+    line-height: 0.58rem;
+    font-size: 0.2rem;
+    color: #777777;
+    border-bottom: 1px solid #e1e1e1;
+}
+.lb-buy-bottom .lb-buy-list-right .lb-buy-list-ul .lb-buy-list-li{
+    display: block;
+    width: 5.48rem;
+    height: 2rem;
+    margin-left: 0.2rem;
+    margin-top: 0.1rem;
+    margin-bottom: 0.05rem;
+    background: #fff;
+    border-radius: 0.2rem;
+    padding-top: 0.32rem;
+    padding-left: 0.21rem;
+}
+.lb-buy-bottom .lb-buy-list-right .lb-buy-list-ul .lb-buy-list-li a{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.lb-buy-bottom .lb-buy-list-right .lb-buy-list-ul .lb-buy-list-li .lb-buy-list-li-left{
+    width: 1.53rem;
+    height: 1.17rem;
+    float: left;
+    background: url("../../images/lb_images/hanbao2.png") no-repeat center center/cover;
+}
+.lb-buy-bottom .lb-buy-list-right .lb-buy-list-ul .lb-buy-list-li .lb-buy-list-li-middle{
+    width: 2.7rem;
+    height: 1.17rem;
+    float: left;
+    margin-left: 0.1rem;
+}
+.lb-buy-bottom .lb-buy-list-right .lb-buy-list-ul .lb-buy-list-li .lb-buy-list-li-middle .lb-buy-list-li-middle-top{
+    height: 0.23rem;
+    width: 100%;
+    line-height: 0.23rem;
+}
+.lb-buy-bottom .lb-buy-list-right .lb-buy-list-ul .lb-buy-list-li .lb-buy-list-li-middle .lb-buy-list-li-middle-top p{
+    display: block;
+    float: left;
+    font-size: 0.24rem;
+    color:#000;
+}
+.lb-buy-bottom .lb-buy-list-right .lb-buy-list-ul .lb-buy-list-li .lb-buy-list-li-middle .lb-buy-list-li-middle-top span{
+    display: block;
+    float: left;
+    width: 0.75rem;
+    height: 0.13rem;
+    background: url("../../images/lb_images/star.png") no-repeat center center/cover;
+    margin-top: 0.05rem;
+    margin-left: 0.08rem;
+}
+.lb-buy-bottom .lb-buy-list-right .lb-buy-list-ul .lb-buy-list-li .lb-buy-list-li-middle .lb-buy-list-li-middle-m{
+    width: 2.5rem;
+    height: 0.5rem;
+    border-top:2px dashed #e6e6e6;
+    line-height: 0.5rem;
+    font-size: 0.14rem;
+    color:#666666;
+    margin-top: 0.1rem;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.lb-buy-bottom .lb-buy-list-right .lb-buy-list-ul .lb-buy-list-li .lb-buy-list-li-middle .lb-buy-list-li-middle-bottom{
+    width: 0.32rem;
+    height: 0.32rem;
+    margin-top: 0.02rem;
+    background: url("../../images/lb_images/jia.png") no-repeat center center/cover;
+}
+.lb-buy-bottom .lb-buy-list-right .lb-buy-list-ul .lb-buy-list-li .lb-buy-list-li-right{
+    height: 0.55rem;
+    float:left;
+    border-left: 1px solid #e60033;
+    margin-top: 0.31rem;
+}
+.lb-buy-bottom .lb-buy-list-right .lb-buy-list-ul .lb-buy-list-li .lb-buy-list-li-right span{
+    display: block;
+    font-size: 0.3rem;
+    color:#dd6d02;
+    line-height: 0.3rem;
+    margin-left: 0.09rem;
+}
+.lb-buy-bottom .lb-buy-list-right .lb-buy-list-ul .lb-buy-list-li .lb-buy-list-li-line{
+    width: 5rem;
+    height: 1px;
+    background: #efefef;
+    float: left;
+    margin-top: 0.22rem;
+}
+
+
+.lb-buy-xuan{
+    width: 100%;
+    height: 0.9rem;
+    position: fixed;
+    left: 0;
+    bottom:0;
+    z-index: 10001;
+    display: none;
+}
+.lb-buy-xuan .lb-buy-xuan-left{
+    width: 5.2rem;
+    height: 100%;
+    float: left;
+    background: #333;
+}
+.lb-buy-xuan .lb-buy-xuan-left>span{
+    display: block;
+    width: 0.87rem;
+    height: 0.87rem;
+    background: #000;
+    float: left;
+    margin-left: 0.25rem;
+    margin-top: -0.2rem;
+    border-radius: 50%;
+    position: relative;
+}
+.lb-buy-xuan .lb-buy-xuan-left>span>div{
+    display: block;
+    width: 0.8rem;
+    height: 1.06rem;
+    position: absolute;
+    left: 0.04rem;
+    bottom: 0;
+    background: url("../../images/lb_images/zhifu.png") no-repeat center center/cover;
+}
+.lb-buy-xuan .lb-buy-xuan-left .lb-buy-xuan-left-price{
+    float: left;
+    height: 0.9rem;
+    padding-top: 0.1rem;
+    color:#fff;
+    font-size: 0.3rem;
+    line-height: 0.3rem;
+    margin-left: 0.25rem;
+}
+.lb-buy-xuan .lb-buy-xuan-left .lb-buy-xuan-left-price p{
+    font-size: 0.18rem;
+}
+.lb-buy-xuan .lb-buy-xuan-right{
+    width: 2.3rem;
+    height: 100%;
+    float: left;
+    background: #e60033;
+    line-height: 0.9rem;
+    text-align: center;
+}
+.lb-buy-xuan .lb-buy-xuan-right a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    color:#fff;
+}
+
+/*购物袋*/
+.lb-buy-gwd{
+    width: 100%;
+    height: 2.24rem;
+    position: fixed;
+    left: 0;
+    bottom:0.9rem;
+    background: #fff;
+    padding:0 0.24rem;
+    z-index: 10001;
+    display: none;
+}
+.lb-buy-gwd .lb-buy-gwd-top{
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #f0f0f0;
+    padding-bottom: 0.16rem;
+    overflow: hidden;
+    margin-top: 0.2rem;
+}
+.lb-buy-gwd .lb-buy-gwd-top .lb-buy-gwd-topl{
+    width: auto;
+    height: 0.24rem;
+    float: left;
+}
+.lb-buy-gwd .lb-buy-gwd-top .lb-buy-gwd-topl a{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.lb-buy-gwd .lb-buy-gwd-top .lb-buy-gwd-topl span{
+    display: block;
+    width: 0.24rem;
+    height: 0.24rem;
+    background:url("../../images/lb_images/shop.png") no-repeat center center/cover ;
+    float: left;
+}
+.lb-buy-gwd .lb-buy-gwd-top .lb-buy-gwd-topl h3{
+    display: block;
+    height: 0.24rem;
+    line-height: 0.24rem;
+    font-size: 0.24rem;
+    color:#333;
+    float: left;
+    margin-left: 0.08rem;
+}
+.lb-buy-gwd .lb-buy-gwd-top .lb-buy-gwd-topl p{
+    display: block;
+    height: 0.24rem;
+    line-height: 0.24rem;
+    float: left;
+    font-size: 0.18rem;
+    color:#e9204d;
+    margin-left: 0.08rem;
+}
+.lb-buy-gwd .lb-buy-gwd-top .lb-buy-gwd-topr{
+    width: auto;
+    height: 0.24rem;
+    float: right;
+}
+.lb-buy-gwd .lb-buy-gwd-top .lb-buy-gwd-topr a{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.lb-buy-gwd .lb-buy-gwd-top .lb-buy-gwd-topr span{
+    display: block;
+    width: 0.24rem;
+    height: 0.24rem;
+    float: left;
+    background: url("../../images/lb_images/delect.png") no-repeat center center/cover;
+}
+.lb-buy-gwd .lb-buy-gwd-top .lb-buy-gwd-topr p{
+    display: block;
+    height: 0.24rem;
+    line-height: 0.24rem;
+    font-size: 0.18rem;
+    float: left;
+    color:#999;
+}
+.lb-buy-gwd .lb-buy-gwd-bottom{
+    width: 100%;
+    height: 0.69rem;
+    padding-bottom: 0.23rem;
+    border-bottom: 1px solid #f0f0f0;
+    margin-top: 0.3rem;
+}
+.lb-buy-gwd .lb-buy-gwd-bottom .lb-buy-gwd-bottoml{
+    width: auto;
+    height: 0.46rem;
+    float: left;
+}
+.lb-buy-gwd .lb-buy-gwd-bottom .lb-buy-gwd-bottoml span{
+    display: block;
+    float: left;
+    width: 0.12rem;
+    height: 0.12rem;
+    border-radius: 50%;
+    background: #e60033;
+    margin-top: 0.19rem;
+    margin-left: 0.32rem;
+}
+.lb-buy-gwd .lb-buy-gwd-bottom .lb-buy-gwd-bottoml p{
+    display: block;
+    height: 0.46rem;
+    line-height: 0.46rem;
+    float: left;
+    font-size: 0.3rem;
+    color:#333;
+    margin-left: 0.17rem;
+}
+.lb-buy-gwd .lb-buy-gwd-bottom .lb-buy-gwd-bottomm{
+    display: block;
+    height: 0.46rem;
+    line-height: 0.46rem;
+    font-size: 0.32rem;
+    color:#e60033;
+    margin-left: 1.68rem;
+    float: left;
+}
+.lb-buy-gwd .lb-buy-gwd-bottom .lb-buy-gwd-bottomr{
+    width: auto;
+    height: 0.46rem;
+    float: right;
+}
+.lb-buy-gwd .lb-buy-gwd-bottom .lb-buy-gwd-bottomr span{
+    display: block;
+    float: right;
+    width: 0.46rem;
+    height: 0.46rem;
+    border-radius: 0.2rem;
+    line-height: 0.46rem;
+    text-align: center;
+    color:#fff;
+}
+.lb-buy-gwd .lb-buy-gwd-bottom .lb-buy-gwd-bottomr span:nth-child(1){
+    background: #e60033;
+}
+.lb-buy-gwd .lb-buy-gwd-bottom .lb-buy-gwd-bottomr span:nth-child(3){
+    background: #707070;
+}
+.lb-buy-gwd .lb-buy-gwd-bottom .lb-buy-gwd-bottomr p{
+    display: block;
+    float: right;
+    width: 0.46rem;
+    height: 0.46rem;
+    color:#e60033;
+    line-height: 0.46rem;
+    text-align: center;
+    font-size: 0.36rem;
+}
+
+    /*购物车*/
+.lb-gwc-banner{
+    width: 100%;
+    height: 5rem;
+    background: url("../../images/lb_images/hanbao3.png") no-repeat center center/cover;
+}
+.lb-gwc-back{
+    display: block;
+    width: 0.34rem;
+    height: 0.34rem;
+    position: absolute;
+    left:0.24rem;
+    top:0.67rem;
+    background: url("../../images/lb_images/login-back.png")no-repeat center center/cover;
+}
+.lb-gwc-back a{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.lb-gwc-taocan{
+    width: 100%;
+    height: auto;
+    padding: 0 0.25rem;
+    background: #f2f2f2;
+}
+.lb-gwc-taocan .lb-gwc-top{
+    width: 100%;
+    height: auto;
+    margin-top: 0.5rem;
+}
+.lb-gwc-taocan .lb-gwc-top h3{
+    font-size: 0.36rem;
+    color:#000;
+}
+.lb-gwc-taocan .lb-gwc-top span{
+    font-size: 0.18rem;
+    color:#666;
+}
+.lb-gwc-taocan .lb-gwc-middle{
+    width: 100%;
+    border-bottom: 1px solid #e7e7e7;
+    overflow: hidden;
+    padding-bottom: 0.13rem;
+    margin-top: 0.44rem;
+}
+.lb-gwc-taocan .lb-gwc-middle p{
+    display: block;
+    float: left;
+    height: 0.32rem;
+    line-height: 0.32rem;
+    font-size: 0.32rem;
+    color:#e60033;
+}
+.lb-gwc-taocan .lb-gwc-middle .lb-gwc-middle-right{
+    width: auto;
+    float: right;
+    color:#e60033;
+    height: 0.32rem;
+}
+.lb-gwc-taocan .lb-gwc-middle .lb-gwc-middle-right span{
+    display: block;
+    float: right;
+    width: 0.32rem;
+    height: 0.32rem;
+    background: url("../../images/lb_images/jia.png") no-repeat center center/cover;
+}
+.lb-gwc-taocan .lb-gwc-middle .lb-gwc-middle-right p{
+    display: block;
+    width: auto;
+    float: right;
+    font-size: 0.3rem;
+}
+.lb-gwc-taocan .lb-gwc-bottom{
+    width: 100%;
+    height: auto;
+    line-height: 0.5rem;
+    font-size: 0.18rem;
+    margin-top: 0.14rem;
+}
+.lb-gwc-taocan .lb-gwc-bottom span{
+    color:#666;
+}
+.lb-gwc-taocan .lb-gwc-bottom p{
+    color:#999;
+}
+
+/*阴影*/
+.lb-buy-mask{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top:0;
+    background: rgba(0,0,0,0.7);
+    z-index: 9999;
+    display: none;
+}
