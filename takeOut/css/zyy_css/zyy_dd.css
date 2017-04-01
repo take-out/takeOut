@@ -26,7 +26,46 @@ body,html{
 	background: #E60033;
 	flex: 0 0 auto;
 }
-
+.header-box {
+  background: #e60033;
+  padding: 0 0.24rem; }
+  .header-box .return {
+    width: 0.49rem;
+    height: 0.49rem;
+    margin-top: 0.2rem;
+    float: left; }
+    .header-box .return img {
+      width: 0.49rem; }
+  .header-box .search {
+    width: 5rem;
+    height: 0.6rem;
+    border-radius: 0.3rem;
+    background: #ffffff;
+    float: left;
+    margin-top: 0.15rem;
+    margin-left: 0.46rem; }
+    .header-box .search span {
+      display: block;
+      line-height: 0.6rem;
+      float: left;
+      margin-left: 0.28rem;
+      margin-right: 0.1rem; }
+      .header-box .search span img {
+        width: 0.35rem;
+        margin-top:0.14rem;
+        height: 0.37rem; }
+    .header-box .search input {
+      outline: none;
+      display: block;
+      float: left;
+      /*background: blue;*/
+      color: #cccccc;
+      border: 0;
+      width: 3.2rem;
+      height: .6rem;}
+.gzh-right{
+	margin-left:0.5rem; 
+}
 .section-content{
 	flex: 1 0 auto;
 	background: #F2F2F2;
