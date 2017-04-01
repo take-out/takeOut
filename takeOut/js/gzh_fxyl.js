@@ -5,7 +5,7 @@ var title=$(".title");
 var bt=$("div",title);
 var content=$(".section-content");
 touch.on('div', 'touchstart', function(e){
-    e.preventDefault();
+    // e.preventDefault();
     
     var index=$(this).index();
     bt.css({color:"#000000"});
