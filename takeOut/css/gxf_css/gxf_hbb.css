@@ -1,0 +1,11 @@
+.gxf-xindian-box{
+	width: 7rem;height: auto;
+	margin:0 auto;
+}
+.gxf-xindian{
+	width: 100%;height: 1.55rem;
+	background: white;
+	margin-top: .3rem;
+	border-radius: 5px;
+	display: flex;
+}

@@ -1,0 +1,59 @@
+.gxf-dw-box{
+	width: 7rem;height: auto;
+	margin:0 auto;
+	margin-top:.3rem;
+}
+.gxf-dw-fujin{
+	width: 100%;height: .32rem;
+	margin-bottom: .22rem;
+	
+}
+.gxf-dw-fujin img{
+	height: 100%;
+	line-height: .32rem;
+	vertical-align: middle;
+	float: left;
+}
+.gxf-dw-fujin span{
+	font-size:.25rem;
+	float: left;
+	color: #A5A5A5;
+	margin-left: .1rem;
+}
+.gxf-dw-dangqian{
+	width: 6.65rem;height: .8rem;
+	border-bottom: 1px solid #EDEDED;
+	float: right;
+}
+.gxf-dw-dangqian-left{
+	width:5.2rem;height: 100%;
+	float: left;
+
+}
+.gxf-dw-p1{
+	color:#363636;
+	font-size: .27rem;
+}
+.gxf-dw-p2{
+	color:#999999;
+	font-size: .18rem;
+}
+.gxf-dw-dangqian-right{
+	width: 1.2rem;height: 100%;
+	float: right;
+}
+.gxf-dw-dangqian-right img{
+	width: .3rem;
+	margin-left: .45rem;
+}
+.gxf-dw-p3{
+	color: #E60238;
+	font-size: .16rem;
+	text-align: center;
+}
+.gxf-dw-dier{
+	width: 6.65rem;height: .6rem;
+	border-bottom: 1px solid #EDEDED;
+	float: right;
+	line-height: .6rem;
+}
